@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Title/>
       <TaskForm/>
+      <br/>
       <Tasks/>
     </div>
   );
