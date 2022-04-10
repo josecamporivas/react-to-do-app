@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Washing dishes and kitchenware",
+        "done": true
+    },
+    {
+        "id": 2,
+        "name": "Preparing and cooking meals",
+        "done": false
+    },
+    {
+        "id": 3,
+        "name": "Feeding pets and cleaning litter boxes",
+        "done": true
+    },
+    {
+        "id": 4,
+        "name": "Go to the stadium",
+        "done": true
+    },
+    {
+        "id": 5,
+        "name": "Buy new clothes",
+        "done": false
+    },
+    {
+        "id": 6,
+        "name": "Do the homework",
+        "done": true
+    },
+    {
+        "id": 7,
+        "name": "Sleep",
+        "done": true
+    }
+]
