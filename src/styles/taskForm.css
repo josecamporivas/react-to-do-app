@@ -1,0 +1,28 @@
+.taskForm{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#labelTaskName{
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+#taskName{
+    height: 25px;
+    font-size: 20px;
+}
+
+#buttonTaskSubmit{
+    align-items: center;
+    border-radius: 15px;
+    background-color: #ffaf01;
+}
+
+#buttonTaskSubmit:hover{
+    background-color: #ffaf01dc;
+}
+#buttonTaskSubmit > img{
+    margin-top: 1px;
+}
