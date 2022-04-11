@@ -27,6 +27,16 @@ export default class App extends React.Component{
     this.setState({tasks: newTasks})
   }
 
+  taskDeleted = (id) => {
+    const newTasks = this.state.tasks.filter((task) => {
+      if(task.id !== id){
+          return task;
+      }
+        
+    })
+
+    this.setState({tasks: newTasks})
+  }
 
   render() {
     return (
