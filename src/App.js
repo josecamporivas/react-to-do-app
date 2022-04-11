@@ -15,6 +15,30 @@ export default class App extends React.Component{
     tasks: TasksJSON,
   }
 
+  taskAdded = (name) => {
+    if(!name){
+      //show error
+
+    }else{
+      let maxTaskId = 0;
+      this.state.tasks.forEach((elem) => {
+        if(elem.id > maxTaskId){
+          maxTaskId = elem.id
+        }
+      })
+
+      const newTask = {
+        name: name,
+        done: false,
+        id: maxTaskId + 1
+      }
+      
+      this.setState({
+        tasks: [...this.state.tasks, newTask]
+      })
+    }
+  }
+
   taskDone = (id) => {
     const newTasks = this.state.tasks.map((task) => {
       if(task.id === id){
