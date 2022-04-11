@@ -15,6 +15,18 @@ export default class App extends React.Component{
     tasks: TasksJSON,
   }
 
+  taskDone = (id) => {
+    const newTasks = this.state.tasks.map((task) => {
+      if(task.id === id){
+        task.done = !task.done;
+      }
+
+      return task;
+    })
+
+    this.setState({tasks: newTasks})
+  }
+
 
   render() {
     return (

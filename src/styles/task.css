@@ -29,6 +29,7 @@
 }
 
 .buttonDoneTask{
+    cursor: pointer;
     align-items: center;
     border-radius: 15px;
     background-color: #44EE77;
