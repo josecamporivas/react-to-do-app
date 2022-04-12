@@ -35,7 +35,7 @@ export default class TaskForm extends React.Component{
                 <label id="labelTaskName" htmlFor="taskName">Add a new task</label>
                 <input ref={this.inputRef} id="taskName" type="text" onChange={this.onChange} />
                 <button id="buttonTaskSubmit" type='submit' >
-                    <img src={plusSvg}/>
+                    <img alt="add task" src={plusSvg}/>
                 </button>
             </form>
         )
