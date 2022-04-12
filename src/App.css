@@ -9,6 +9,10 @@ FONT-FAMILY
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 */
 
+body{
+  background-color: #01999136;
+}
+
 .App{
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

@@ -54,7 +54,7 @@ export default class App extends React.Component{
   taskDeleted = (id) => {
     const newTasks = this.state.tasks.filter((task) => {
       if(task.id !== id){
-          return task;
+        return task;
       }
         
     })
